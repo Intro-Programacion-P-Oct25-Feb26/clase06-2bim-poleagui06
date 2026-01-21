@@ -24,11 +24,19 @@ public class Ejemplo04 {
             int valor2 = entrada.nextInt(); // se espera un valor entero
             int resultado = valor1 / valor2;
 
-            System.out.printf("Resultado %d", resultado);
+            System.out.printf("Resultado %.2f", resultado);
         } catch (InputMismatchException inputMismatchException) {
 
             System.out.printf("Existe un error de tipo %s\n",
                     inputMismatchException);
+        } catch (ArithmeticException ArithmeticException) {
+
+            System.out.printf("Existe un error de tipo %s\n",
+                    ArithmeticException);
+        } catch (Exception e) {
+
+            System.out.printf("Existe un error de tipo %s\n",
+                    e);
         }
         
         System.out.println("Continuamos");

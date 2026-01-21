@@ -28,6 +28,12 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+                /* Este programa permite realizar una división entre dos números 
+                enteros mediante un bucle que se repite hasta que el ingreso sea válido. 
+                Utiliza bloques try-catch para capturar errores de entrada de datos 
+                (InputMismatchException) y divisiones por cero (ArithmeticException). 
+                De esta manera, el sistema asegura la continuidad de la ejecución y 
+                solicita nuevamente los valores en caso de cualquier error. */
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",
