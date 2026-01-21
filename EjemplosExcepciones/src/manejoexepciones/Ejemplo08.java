@@ -35,3 +35,9 @@ public class Ejemplo08 {
                
     }
 }
+/* Este programa realiza una división capturando cualquier tipo de error mediante
+una excepción genérica.
+A diferencia de versiones anteriores, no utiliza un bucle, por lo que el programa 
+termina tras el primer intento, sea este exitoso o fallido, mostrando el resultado 
+con formato decimal. 
+*/
